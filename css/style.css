@@ -101,7 +101,7 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 .head__text {
 	width: 262px;
 	font-size: 20px;
-	font-family: "Roboto";
+	font-family: Roboto;
 	font-weight: 300;
 	color: rgb(172, 200, 214);
 	text-transform: uppercase;
@@ -119,11 +119,14 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 .head__tel a {
 	display: block;
 	font-size: 24px;
-	font-family: "Roboto";
+	font-family: Roboto;
+	font-weight: 300;
 	color: rgb(144, 183, 203);
 }
 .head__tel span{
 	font-size: 30px;
+	font-family: Roboto;
+	font-weight: 300;
 	color: #f4f4f4;
 }
 .menu {}
@@ -266,7 +269,7 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 .founder__headline {
 	font-size: 25px;
 	font-family: "Roboto";
-	font-weight: 700;
+	font-weight: 300;
 	color: rgb(44, 124, 201);
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -315,6 +318,7 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 .footer__text {
 	font-size: 16px;
 	font-family: "Roboto";
+	font-weight: 300;
 	color: rgb(251, 253, 255);
 	display: flex;
 	align-items: center;
@@ -350,7 +354,7 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 .footer__coloum {
 	display: flex;
 	align-items: center;
-	margin-top: -14px;
+	padding-bottom: 10px;
 }
 .footer__coloum span{
 	font-size: 13px;
