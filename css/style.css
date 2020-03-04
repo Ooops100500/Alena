@@ -305,7 +305,6 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 	width: 974px;
 	height: 39px;
 	display: flex;
-	justify-content: space-between;
 }
 .footer__rowbot{
 	margin-right: auto;
@@ -331,12 +330,11 @@ src:url('../fonts/roboto-light_0-webfont.woff2') format('woff2'),
 .footer__text:first-child{
 	border-left: none;
 	padding-left: 0;
-	padding-right: 52px;
+	
 }
 .footer__text:last-child{
 	border-right: none;
 	padding-right: 0;
-	padding-left: 55.5px;
 }
 
 .footer__text span{
